@@ -11,6 +11,8 @@ CMSmap - CMS scanner - https://github.com/Dionach/CMSmap
 wordpress-exploit-framework - penetration testing of WordPress - https://github.com/rastating/wordpress-exploit-framework
 joomlol - Joomla User-Agent/X-Forwarded-For RCE  - https://github.com/compoterhacker/joomlol
 joomlavs -  Joomla vulnerability scanner - https://github.com/rastating/joomlavs
+mongoaudit - MongoDB auditing and pentesting tool - https://github.com/stampery/mongoaudit
+davscan - Fingerprints servers, finds exploits, scans WebDAV - https://github.com/Graph-X/davscan
 
 Web Applications:
 HandyHeaderHacker -  Examine HTTP response headers for common security issues - https://github.com/vpnguy/HandyHeaderHacker
@@ -23,6 +25,8 @@ xsshunter - Second order XSS - https://github.com/mandatoryprogrammer/xsshunter
 
 Burp Extensions:
 backslash-powered-scanner - unknown classes of injection vulnerabilities - https://github.com/PortSwigger/backslash-powered-scanner
+BurpSmartBuster - content discovery plugin - https://github.com/pathetiq/BurpSmartBuster
+ActiveScanPlusPlus - extends Burp Suite's active and passive scanning capabilities - https://github.com/albinowax/ActiveScanPlusPlus
 
 Local privilege escalation:
 yodo - become root via limited sudo permissions - https://github.com/b3rito/yodo
@@ -35,6 +39,7 @@ Exploits-Pack - Exploits for getting local root on Linux - https://github.com/Ka
 windows-privesc-check - Standalone Executable - https://github.com/pentestmonkey/windows-privesc-check
 unix-privesc-check -  simple privilege escalation vectors - https://github.com/pentestmonkey/unix-privesc-check
 LinEnum - local Linux Enumeration & Privilege Escalation Checks - https://github.com/rebootuser/LinEnum
+cowcron - Cronbased Dirty Cow Exploit - https://github.com/securifera/cowcron
 
 Phishing:
 eyephish - find similar looking domain names - https://github.com/phar/eyephish
@@ -46,11 +51,20 @@ truffleHog - Searches through git repositories for high entropy strings - https:
 Altdns - Subdomain discovery - https://github.com/infosec-au/altdns
 github-dorks - reveal sensitive personal and/or organizational information - https://github.com/techgaun/github-dorks
 gitrob - find sensitive information - https://github.com/michenriksen/gitrob
+Bluto - DNS Recon , Email Enumeration - https://github.com/darryllane/Bluto
+SimplyEmail - Email recon - https://github.com/killswitch-GUI/SimplyEmail
 
 Post-exploitation:
 MailSniper - searching through email in a Microsoft Exchange  - https://github.com/dafthack/MailSniper
 Misc-Powershell-Scripts - Find-Fruit.ps1 / Exploit-JBoss.ps1 /Brute-Email.ps1
 Windows-Exploit-Suggester - patch levels against vulnerability database - https://github.com/GDSSecurity/Windows-Exploit-Suggester
+ObfuscatedEmpire -  fork of Empire with Invoke-Obfuscation integrated directly in - https://github.com/cobbr/ObfuscatedEmpire
+dnscat2-powershell - A Powershell client for dnscat2, an encrypted DNS command and control tool - https://github.com/lukebaggett/dnscat2-powershell
+lazykatz - xtract credentials from remote targets protected with AV  - https://github.com/bhdresh/lazykatz
+nps - Not PowerShell - https://github.com/Ben0xA/nps
+Invoke-Vnc - Powershell VNC injector - https://github.com/artkond/Invoke-Vnc
+spraywmi - mass spraying Unicorn PowerShell injection - https://github.com/trustedsec/spraywmi
+redsnarf - for retrieving hashes and credentials from Windows workstations - https://github.com/nccgroup/redsnarf
 
 Looting:
 cookie_stealer - steal cookies from firefox cookies database -https://github.com/rash2kool/cookie_stealer
@@ -59,6 +73,7 @@ WebLogicPasswordDecryptor - decrypt WebLogic passwords - https://github.com/NetS
 jenkins-decrypt - Credentials dumper for Jenkins - https://github.com/tweksteen/jenkins-decrypt
 mimikittenz -  ReadProcessMemory() in order to extract plain-text passwords - https://github.com/putterpanda/mimikittenz
 LaZagne - Credentials recovery project - https://github.com/AlessandroZ/LaZagne
+SessionGopher - extract  WinSCP, PuTTY, SuperPuTTY, FileZilla, and Microsoft Remote Desktop - https://github.com/fireeye/SessionGopher
 
 Network Hunting:
 Sticky-Keys-Slayer - Scans for accessibility tools backdoors via RDP - https://github.com/linuz/Sticky-Keys-Slayer
@@ -70,6 +85,7 @@ EyeWitness - take screenshots of websites - https://github.com/ChrisTruncer/EyeW
 PowerUpSQL -  PowerShell Toolkit for Attacking SQL Server - https://github.com/NetSPI/PowerUpSQL
 sparta - scanning and enumeration - https://github.com/SECFORCE/sparta
 Sn1per - Automated Pentest Recon Scanner - https://github.com/1N3/Sn1per
+PCredz - This tool extracts creds from a pcap file or from a live interface - https://github.com/lgandx/PCredz
 
 Wireless:
 air-hammer - WPA Enterprise horizontal brute-force - https://github.com/Wh1t3Rh1n0/air-hammer
@@ -85,6 +101,9 @@ MITMf - Framework for Man-In-The-Middle attacks  - https://github.com/byt3bl33d3
 Physical:
 Brutal - Payload for teensy - https://github.com/Screetsec/Brutal
 poisontap - Exploits locked/password protected computers over USB - https://github.com/samyk/poisontap
+OverThruster - HID attack payload generator for Arduinos - https://github.com/RedLectroid/OverThruster
+Paensy - An attacker-oriented library for the Teensy 3.1 microcontroller - https://github.com/Ozuru/Paensy
+Kautilya - ayloads for a Human Interface Device - https://github.com/samratashok/Kautilya
 
 Exploit Development:
 Eggshell - tool for aiding env-based buffer overflow attack - https://github.com/ichung/eggshell
@@ -100,6 +119,8 @@ Winpayloads - Undetectable Windows Payload Generation  - https://github.com/nccg
 weevely3 - Weaponized web shell  - https://github.com/epinna/weevely3
 fuzzdb - Dictionary of attack patterns - https://github.com/fuzzdb-project/fuzzdb
 payloads - web attack payloads - https://github.com/foospidy/payloads
+HERCULES - payload generator that can bypass antivirus - https://github.com/EgeBalci/HERCULES
+Insanity-Framework - Generate Payloads - https://github.com/4w4k3/Insanity-Framework
 
 Apple:
 MMeTokenDecrypt - Decrypts and extracts iCloud and MMe authorization tokens - https://github.com/manwhoami/MMeTokenDecrypt
@@ -113,7 +134,7 @@ chainbreaker - Mac OS X Keychain Forensic Tool - https://github.com/n0fate/chain
 FiveOnceInYourLife - Local osx dialog box phishing - https://github.com/fuzzynop/FiveOnceInYourLife
 ARD-Inspector - ecrypt the Apple Remote Desktop database - https://github.com/ygini/ARD-Inspector
 keychaindump - reading OS X keychain passwords - https://github.com/juuso/keychaindump
+Bella - python, post-exploitation, data mining tool - https://github.com/manwhoami/Bella
 
 Captive Portals:
 cpscam - Bypass captive portals by impersonating inactive users - https://github.com/codewatchorg/cpscam
-
