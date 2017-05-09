@@ -1,6 +1,7 @@
 General:
 Cheatsheets - Penetration Testing/Security Cheatsheets -https://github.com/jshaw87/Cheatsheets
-awesome-pentest - penetration testing resources - https://github.com/enaqx/awesome-pentest
+awesome-pentest - penetration testing resources - https://github.com/Hack-with-Github/Awesome-Hacking
+Red-Team-Infrastructure-Wiki - Red Team infrastructure hardening resources  - https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 
 Web Services:
 JettyBleed - Jetty HttpParser Error Remote Memory Disclosure - https://github.com/AppSecConsulting/Pentest-Tools
@@ -40,11 +41,16 @@ windows-privesc-check - Standalone Executable - https://github.com/pentestmonkey
 unix-privesc-check -  simple privilege escalation vectors - https://github.com/pentestmonkey/unix-privesc-check
 LinEnum - local Linux Enumeration & Privilege Escalation Checks - https://github.com/rebootuser/LinEnum
 cowcron - Cronbased Dirty Cow Exploit - https://github.com/securifera/cowcron
+WindowsExploits - Precompiled Windows exploits - https://github.com/abatchy17/WindowsExploits
+Privilege-Escalation - common local exploits and enumeration scripts  - https://github.com/AusJock/Privilege-Escalation
+Unix-Privilege-Escalation-Exploits-Pack - https://github.com/LukaSikic/Unix-Privilege-Escalation-Exploits-Pack
+Sherlock - PowerShell script to quickly find missing software patches - https://github.com/rasta-mouse/Sherlock
 
 Phishing:
 eyephish - find similar looking domain names - https://github.com/phar/eyephish
 luckystrike - A PowerShell based utility for the creation of malicious Office macro documents - https://github.com/Shellntel/luckystrike
 phishery - Basic Auth Credential Harvester with a Word Document Template URL Injector  - https://github.com/ryhanson/phishery
+WordSteal - steal NTLM hashes - https://github.com/0x090x0/WordSteal
 
 Open Source Intelligence: 
 truffleHog - Searches through git repositories for high entropy strings - https://github.com/dxa4481/truffleHog
@@ -53,18 +59,22 @@ github-dorks - reveal sensitive personal and/or organizational information - htt
 gitrob - find sensitive information - https://github.com/michenriksen/gitrob
 Bluto - DNS Recon , Email Enumeration - https://github.com/darryllane/Bluto
 SimplyEmail - Email recon - https://github.com/killswitch-GUI/SimplyEmail
+Sublist3r - Fast subdomains enumeration tool for penetration testers  - https://github.com/aboul3la/Sublist3r
+snitch - information gathering via dorks  - https://github.com/Smaash/snitch
 
 Post-exploitation:
 MailSniper - searching through email in a Microsoft Exchange  - https://github.com/dafthack/MailSniper
-Misc-Powershell-Scripts - Find-Fruit.ps1 / Exploit-JBoss.ps1 /Brute-Email.ps1
 Windows-Exploit-Suggester - patch levels against vulnerability database - https://github.com/GDSSecurity/Windows-Exploit-Suggester
-ObfuscatedEmpire -  fork of Empire with Invoke-Obfuscation integrated directly in - https://github.com/cobbr/ObfuscatedEmpire
 dnscat2-powershell - A Powershell client for dnscat2, an encrypted DNS command and control tool - https://github.com/lukebaggett/dnscat2-powershell
 lazykatz - xtract credentials from remote targets protected with AV  - https://github.com/bhdresh/lazykatz
 nps - Not PowerShell - https://github.com/Ben0xA/nps
 Invoke-Vnc - Powershell VNC injector - https://github.com/artkond/Invoke-Vnc
 spraywmi - mass spraying Unicorn PowerShell injection - https://github.com/trustedsec/spraywmi
 redsnarf - for retrieving hashes and credentials from Windows workstations - https://github.com/nccgroup/redsnarf
+shelljack - man-in-the-middle pseudoterminal injection - https://github.com/emptymonkey/shelljack
+HostRecon -  situational awareness - https://github.com/dafthack/HostRecon
+mimipenguin - login password from the current linux user  - https://github.com/huntergregal/mimipenguin
+rpivot - socks4 reverse proxy for penetration testing  - https://github.com/artkond/rpivot
 
 Looting:
 cookie_stealer - steal cookies from firefox cookies database -https://github.com/rash2kool/cookie_stealer
@@ -74,6 +84,7 @@ jenkins-decrypt - Credentials dumper for Jenkins - https://github.com/tweksteen/
 mimikittenz -  ReadProcessMemory() in order to extract plain-text passwords - https://github.com/putterpanda/mimikittenz
 LaZagne - Credentials recovery project - https://github.com/AlessandroZ/LaZagne
 SessionGopher - extract  WinSCP, PuTTY, SuperPuTTY, FileZilla, and Microsoft Remote Desktop - https://github.com/fireeye/SessionGopher
+BrowserGather - Fileless web browser information extraction - https://github.com/sekirkity/BrowserGather
 
 Network Hunting:
 Sticky-Keys-Slayer - Scans for accessibility tools backdoors via RDP - https://github.com/linuz/Sticky-Keys-Slayer
@@ -97,6 +108,7 @@ Man in the Middle:
 mitmproxy - An interactive TLS-capable intercepting HTTP proxy - https://github.com/mitmproxy/mitmproxy
 bettercap - bettercap - https://github.com/evilsocket/bettercap
 MITMf - Framework for Man-In-The-Middle attacks  - https://github.com/byt3bl33d3r/MITMf
+Gifts/Responder - Responder for old python - https://github.com/Gifts/Responder
 
 Physical:
 Brutal - Payload for teensy - https://github.com/Screetsec/Brutal
@@ -105,15 +117,13 @@ OverThruster - HID attack payload generator for Arduinos - https://github.com/Re
 Paensy - An attacker-oriented library for the Teensy 3.1 microcontroller - https://github.com/Ozuru/Paensy
 Kautilya - ayloads for a Human Interface Device - https://github.com/samratashok/Kautilya
 
-Exploit Development:
-Eggshell - tool for aiding env-based buffer overflow attack - https://github.com/ichung/eggshell
-OS-X-10.11.6-Exp-via-PEGASUS - Local privilege escalation for OS X - https://github.com/zhengmin1989/OS-X-10.11.6-Exp-via-PEGASUS
-
 Payloads:
 JavaReverseTCPShell - Spawns a reverse TCP shell in Java - https://github.com/quantumvm/JavaReverseTCPShell
-pyshell - hellify Your HTTP Command Injection - https://github.com/praetorian-inc/pyshell
+splunk_shells - Splunk with reverse and bind shells - https://github.com/TBGSecurity/splunk_shells
+pyshell - shellify Your HTTP Command Injection - https://github.com/praetorian-inc/pyshell
 RobotsDisallowed - harvest of the Disallowed directories - https://github.com/danielmiessler/RobotsDisallowed
 SecLists - collection of multiple types of lists - https://github.com/danielmiessler/SecLists
+Probable-Wordlists - Wordlists sorted by probability - https://github.com/berzerk0/Probable-Wordlists
 ARCANUS -  payload generator/handler.  - https://github.com/EgeBalci/ARCANUS
 Winpayloads - Undetectable Windows Payload Generation  - https://github.com/nccgroup/Winpayloads
 weevely3 - Weaponized web shell  - https://github.com/epinna/weevely3
@@ -121,6 +131,8 @@ fuzzdb - Dictionary of attack patterns - https://github.com/fuzzdb-project/fuzzd
 payloads - web attack payloads - https://github.com/foospidy/payloads
 HERCULES - payload generator that can bypass antivirus - https://github.com/EgeBalci/HERCULES
 Insanity-Framework - Generate Payloads - https://github.com/4w4k3/Insanity-Framework
+Brosec -  An interactive reference tool for payloads - https://github.com/gabemarshall/Brosec
+MacroShop - delivering payloads via Office Macros - https://github.com/khr0x40sh/MacroShop
 
 Apple:
 MMeTokenDecrypt - Decrypts and extracts iCloud and MMe authorization tokens - https://github.com/manwhoami/MMeTokenDecrypt
@@ -138,3 +150,12 @@ Bella - python, post-exploitation, data mining tool - https://github.com/manwhoa
 
 Captive Portals:
 cpscam - Bypass captive portals by impersonating inactive users - https://github.com/codewatchorg/cpscam
+
+Passwords:
+pipal - password analyser - https://github.com/digininja/pipal
+
+Obfuscation:
+ObfuscatedEmpire -  fork of Empire with Invoke-Obfuscation integrated directly in - https://github.com/cobbr/ObfuscatedEmpire
+obfuscate_launcher - Simple script for obfuscating payload launchers - https://github.com/jamcut/obfuscate_launcher
+Invoke-CradleCrafter - Download Cradle Generator & Obfuscator - https://github.com/danielbohannon/Invoke-CradleCrafter
+Invoke-Obfuscation - PowerShell Obfuscator - https://github.com/danielbohannon/Invoke-Obfuscation
