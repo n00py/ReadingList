@@ -1,1 +1,1 @@
-alert(1);
+document.write(1);
