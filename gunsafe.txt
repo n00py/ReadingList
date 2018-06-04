@@ -2,6 +2,7 @@ General:
 Cheatsheets - Penetration Testing/Security Cheatsheets -https://github.com/jshaw87/Cheatsheets
 awesome-pentest - penetration testing resources - https://github.com/Hack-with-Github/Awesome-Hacking
 Red-Team-Infrastructure-Wiki - Red Team infrastructure hardening resources  - https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
+Infosec_Reference - Information Security Reference - https://github.com/rmusser01/Infosec_Reference
 
 Web Services:
 JettyBleed - Jetty HttpParser Error Remote Memory Disclosure - https://github.com/AppSecConsulting/Pentest-Tools
@@ -45,12 +46,14 @@ WindowsExploits - Precompiled Windows exploits - https://github.com/abatchy17/Wi
 Privilege-Escalation - common local exploits and enumeration scripts  - https://github.com/AusJock/Privilege-Escalation
 Unix-Privilege-Escalation-Exploits-Pack - https://github.com/LukaSikic/Unix-Privilege-Escalation-Exploits-Pack
 Sherlock - PowerShell script to quickly find missing software patches - https://github.com/rasta-mouse/Sherlock
+GTFOBins -  list of Unix binaries that can be exploited to bypass system security restrictions - https://github.com/GTFOBins/GTFOBins.github.io
 
 Phishing:
 eyephish - find similar looking domain names - https://github.com/phar/eyephish
 luckystrike - A PowerShell based utility for the creation of malicious Office macro documents - https://github.com/Shellntel/luckystrike
 phishery - Basic Auth Credential Harvester with a Word Document Template URL Injector  - https://github.com/ryhanson/phishery
 WordSteal - steal NTLM hashes - https://github.com/0x090x0/WordSteal
+ReelPhish - Real-Time Two-Factor Phishing Tool - https://github.com/fireeye/ReelPhish
 
 Open Source Intelligence: 
 truffleHog - Searches through git repositories for high entropy strings - https://github.com/dxa4481/truffleHog
@@ -61,6 +64,9 @@ Bluto - DNS Recon , Email Enumeration - https://github.com/darryllane/Bluto
 SimplyEmail - Email recon - https://github.com/killswitch-GUI/SimplyEmail
 Sublist3r - Fast subdomains enumeration tool for penetration testers  - https://github.com/aboul3la/Sublist3r
 snitch - information gathering via dorks  - https://github.com/Smaash/snitch
+RTA - scan all company's online facing assets - https://github.com/flipkart-incubator/RTA
+InSpy - LinkedIn enumeration tool - https://github.com/gojhonny/InSpy
+LinkedInt - LinkedIn scraper for reconnaissance - https://github.com/mdsecactivebreach/LinkedInt
 
 Post-exploitation:
 MailSniper - searching through email in a Microsoft Exchange  - https://github.com/dafthack/MailSniper
@@ -71,7 +77,6 @@ nps - Not PowerShell - https://github.com/Ben0xA/nps
 Invoke-Vnc - Powershell VNC injector - https://github.com/artkond/Invoke-Vnc
 spraywmi - mass spraying Unicorn PowerShell injection - https://github.com/trustedsec/spraywmi
 redsnarf - for retrieving hashes and credentials from Windows workstations - https://github.com/nccgroup/redsnarf
-shelljack - man-in-the-middle pseudoterminal injection - https://github.com/emptymonkey/shelljack
 HostRecon -  situational awareness - https://github.com/dafthack/HostRecon
 mimipenguin - login password from the current linux user  - https://github.com/huntergregal/mimipenguin
 rpivot - socks4 reverse proxy for penetration testing  - https://github.com/artkond/rpivot
@@ -85,6 +90,7 @@ mimikittenz -  ReadProcessMemory() in order to extract plain-text passwords - ht
 LaZagne - Credentials recovery project - https://github.com/AlessandroZ/LaZagne
 SessionGopher - extract  WinSCP, PuTTY, SuperPuTTY, FileZilla, and Microsoft Remote Desktop - https://github.com/fireeye/SessionGopher
 BrowserGather - Fileless web browser information extraction - https://github.com/sekirkity/BrowserGather
+windows_sshagent_extract -  extract private keys from Windows 10's built in ssh-agent service - https://github.com/ropnop/windows_sshagent_extract
 
 Network Hunting:
 Sticky-Keys-Slayer - Scans for accessibility tools backdoors via RDP - https://github.com/linuz/Sticky-Keys-Slayer
@@ -93,10 +99,12 @@ BloodHound - reveal relationships within an Active Directory - https://github.co
 APT2 - An Automated Penetration Testing Toolkit - https://github.com/MooseDojo/apt2
 CredNinja -  identify if credentials are valid - https://github.com/Raikia/CredNinja
 EyeWitness - take screenshots of websites - https://github.com/ChrisTruncer/EyeWitness
+gowitness -  a golang, web screenshot utility - https://github.com/sensepost/gowitness
 PowerUpSQL -  PowerShell Toolkit for Attacking SQL Server - https://github.com/NetSPI/PowerUpSQL
 sparta - scanning and enumeration - https://github.com/SECFORCE/sparta
 Sn1per - Automated Pentest Recon Scanner - https://github.com/1N3/Sn1per
 PCredz - This tool extracts creds from a pcap file or from a live interface - https://github.com/lgandx/PCredz
+ridrelay - Enumerate usernames on a domain where you have no creds - https://github.com/skorov/ridrelay
 
 Wireless:
 air-hammer - WPA Enterprise horizontal brute-force - https://github.com/Wh1t3Rh1n0/air-hammer
@@ -109,13 +117,15 @@ mitmproxy - An interactive TLS-capable intercepting HTTP proxy - https://github.
 bettercap - bettercap - https://github.com/evilsocket/bettercap
 MITMf - Framework for Man-In-The-Middle attacks  - https://github.com/byt3bl33d3r/MITMf
 Gifts/Responder - Responder for old python - https://github.com/Gifts/Responder
+mitm6 - pwning IPv4 via IPv6  - https://github.com/fox-it/mitm6
+shelljack - man-in-the-middle pseudoterminal injection - https://github.com/emptymonkey/shelljack
 
 Physical:
 Brutal - Payload for teensy - https://github.com/Screetsec/Brutal
 poisontap - Exploits locked/password protected computers over USB - https://github.com/samyk/poisontap
 OverThruster - HID attack payload generator for Arduinos - https://github.com/RedLectroid/OverThruster
 Paensy - An attacker-oriented library for the Teensy 3.1 microcontroller - https://github.com/Ozuru/Paensy
-Kautilya - ayloads for a Human Interface Device - https://github.com/samratashok/Kautilya
+Kautilya - Payloads for a Human Interface Device - https://github.com/samratashok/Kautilya
 
 Payloads:
 JavaReverseTCPShell - Spawns a reverse TCP shell in Java - https://github.com/quantumvm/JavaReverseTCPShell
@@ -133,6 +143,10 @@ HERCULES - payload generator that can bypass antivirus - https://github.com/EgeB
 Insanity-Framework - Generate Payloads - https://github.com/4w4k3/Insanity-Framework
 Brosec -  An interactive reference tool for payloads - https://github.com/gabemarshall/Brosec
 MacroShop - delivering payloads via Office Macros - https://github.com/khr0x40sh/MacroShop
+Demiguise - HTA encryption tool - https://github.com/nccgroup/demiguise
+ClickOnceGenerator - Quick Malicious ClickOnceGenerator - https://github.com/Mr-Un1k0d3r/ClickOnceGenerator
+PayloadsAllTheThings -  A list of useful payloads - https://github.com/swisskyrepo/PayloadsAllTheThings
+
 
 Apple:
 MMeTokenDecrypt - Decrypts and extracts iCloud and MMe authorization tokens - https://github.com/manwhoami/MMeTokenDecrypt
@@ -147,15 +161,18 @@ FiveOnceInYourLife - Local osx dialog box phishing - https://github.com/fuzzynop
 ARD-Inspector - ecrypt the Apple Remote Desktop database - https://github.com/ygini/ARD-Inspector
 keychaindump - reading OS X keychain passwords - https://github.com/juuso/keychaindump
 Bella - python, post-exploitation, data mining tool - https://github.com/manwhoami/Bella
+EvilOSX - pure python, post-exploitation, RAT - https://github.com/Marten4n6/EvilOSX
 
 Captive Portals:
 cpscam - Bypass captive portals by impersonating inactive users - https://github.com/codewatchorg/cpscam
 
 Passwords:
 pipal - password analyser - https://github.com/digininja/pipal
+wordsmith - assist with creating tailored wordlists - https://github.com/skahwah/wordsmith
 
 Obfuscation:
 ObfuscatedEmpire -  fork of Empire with Invoke-Obfuscation integrated directly in - https://github.com/cobbr/ObfuscatedEmpire
 obfuscate_launcher - Simple script for obfuscating payload launchers - https://github.com/jamcut/obfuscate_launcher
 Invoke-CradleCrafter - Download Cradle Generator & Obfuscator - https://github.com/danielbohannon/Invoke-CradleCrafter
 Invoke-Obfuscation - PowerShell Obfuscator - https://github.com/danielbohannon/Invoke-Obfuscation
+nps_payload - payloads for basic intrusion detection avoidance - https://github.com/trustedsec/nps_payload
