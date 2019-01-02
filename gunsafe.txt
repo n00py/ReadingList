@@ -111,6 +111,7 @@ air-hammer - WPA Enterprise horizontal brute-force - https://github.com/Wh1t3Rh1
 mana - toolkit for wifi rogue AP attacks - https://github.com/sensepost/mana
 crEAP - Harvesting Users on Enterprise Wireless Networks - https://github.com/Shellntel/scripts
 wifiphisher -  phishing attacks against Wi-Fi clients  - https://github.com/sophron/wifiphisher
+WiFiSuite - consolidating the most common tools - https://github.com/NickSanzotta/WiFiSuite
 
 Man in the Middle:
 mitmproxy - An interactive TLS-capable intercepting HTTP proxy - https://github.com/mitmproxy/mitmproxy
