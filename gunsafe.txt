@@ -48,7 +48,6 @@ GTFOBins -  list of Unix binaries that can be exploited to bypass system securit
 
 Phishing:
 eyephish - find similar looking domain names - https://github.com/phar/eyephish
-luckystrike - A PowerShell based utility for the creation of malicious Office macro documents - https://github.com/Shellntel/luckystrike
 phishery - Basic Auth Credential Harvester with a Word Document Template URL Injector  - https://github.com/ryhanson/phishery
 WordSteal - steal NTLM hashes - https://github.com/0x090x0/WordSteal
 ReelPhish - Real-Time Two-Factor Phishing Tool - https://github.com/fireeye/ReelPhish
@@ -148,6 +147,8 @@ Droppers:
 HERCULES - payload generator that can bypass antivirus - https://github.com/EgeBalci/HERCULES
 MacroShop - delivering payloads via Office Macros - https://github.com/khr0x40sh/MacroShop
 ClickOnceGenerator - Quick Malicious ClickOnceGenerator - https://github.com/Mr-Un1k0d3r/ClickOnceGenerator
+luckystrike - A PowerShell based utility for the creation of malicious Office macro documents - https://github.com/Shellntel/luckystrike
+
 Insanity-Framework - Generate Payloads - https://github.com/4w4k3/Insanity-Framework
 Winpayloads - Undetectable Windows Payload Generation  - https://github.com/nccgroup/Winpayloads
 Enigma - Multiplatform payload dropper  - https://github.com/UndeadSec/Enigma
