@@ -149,11 +149,12 @@ HERCULES - payload generator that can bypass antivirus - https://github.com/EgeB
 MacroShop - delivering payloads via Office Macros - https://github.com/khr0x40sh/MacroShop
 ClickOnceGenerator - Quick Malicious ClickOnceGenerator - https://github.com/Mr-Un1k0d3r/ClickOnceGenerator
 luckystrike - A PowerShell based utility for the creation of malicious Office macro documents - https://github.com/Shellntel/luckystrike
-
 Insanity-Framework - Generate Payloads - https://github.com/4w4k3/Insanity-Framework
 Winpayloads - Undetectable Windows Payload Generation  - https://github.com/nccgroup/Winpayloads
 Enigma - Multiplatform payload dropper  - https://github.com/UndeadSec/Enigma
 Gscript - framework to rapidly implement custom droppers - https://github.com/gen0cide/gscript
+mcreator - Encoded Reverse Shell Generator - https://github.com/blacknbunny/mcreator
+Phantom-Evasion - Python AV evasion tool - https://github.com/oddcod3/Phantom-Evasion
 
 Apple:
 MMeTokenDecrypt - Decrypts and extracts iCloud and MMe authorization tokens - https://github.com/manwhoami/MMeTokenDecrypt
