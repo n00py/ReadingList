@@ -194,6 +194,7 @@ SafetyKatz -  create a minidump of LSASS - https://github.com/GhostPack/SafetyKa
 SharpShooter - framework for the retrieval and execution of arbitrary CSharp source code - https://github.com/mdsecactivebreach/SharpShooter
 SharpCradle - download and execute .NET binaries into memory - https://github.com/anthemtotheego/SharpCradle
 Sharp-WMIExec -  C# conversion of Invoke-WMIExec - https://github.com/checkymander/Sharp-WMIExec
+Sharp-SMBExec - C# conversion of Invoke-SMBExec https://github.com/checkymander/Sharp-SMBExec
 SharpCloud - Collecting  AWS, Microsoft Azure, and Google Compute creds - https://github.com/chrismaddalena/SharpCloud
 SharpView - C# implementation of PowerView - https://github.com/tevora-threat/SharpView
 SharpHound - The BloodHound C# Ingestor - https://github.com/BloodHoundAD/SharpHoun
