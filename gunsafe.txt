@@ -45,6 +45,7 @@ Privilege-Escalation - common local exploits and enumeration scripts  - https://
 Unix-Privilege-Escalation-Exploits-Pack - https://github.com/LukaSikic/Unix-Privilege-Escalation-Exploits-Pack
 Sherlock - PowerShell script to quickly find missing software patches - https://github.com/rasta-mouse/Sherlock
 GTFOBins -  list of Unix binaries that can be exploited to bypass system security restrictions - https://github.com/GTFOBins/GTFOBins.github.io
+juicy-potato - local privilege escalation from service account - https://github.com/ohpe/juicy-potato
 
 Phishing:
 eyephish - find similar looking domain names - https://github.com/phar/eyephish
@@ -67,6 +68,12 @@ RTA - scan all company's online facing assets - https://github.com/flipkart-incu
 InSpy - LinkedIn enumeration tool - https://github.com/gojhonny/InSpy
 LinkedInt - LinkedIn scraper for reconnaissance - https://github.com/mdsecactivebreach/LinkedInt
 amass - In-Depth DNS Enumeration and Network Mapping - https://github.com/caffix/amass
+DVCS-Pillage - Pillage web accessible GIT, HG and BZR repositories - https://github.com/evilpacket/DVCS-Pillage
+UhOh365 - Script that can see if an email address is valid in Office365 - https://github.com/Raikia/UhOh365
+o365spray - Username enumeration and password spraying tool - https://github.com/0xZDH/o365spray
+raven - Linkedin information gathering tool - https://github.com/0x09AL/raven
+patator - multi-purpose brute-forcer - https://github.com/lanjelot/patator
+
 
 Post-exploitation:
 Windows-Exploit-Suggester - patch levels against vulnerability database - https://github.com/GDSSecurity/Windows-Exploit-Suggester
@@ -77,6 +84,11 @@ redsnarf - for retrieving hashes and credentials from Windows workstations - htt
 HostRecon -  situational awareness - https://github.com/dafthack/HostRecon
 mimipenguin - login password from the current linux user  - https://github.com/huntergregal/mimipenguin
 rpivot - socks4 reverse proxy for penetration testing  - https://github.com/artkond/rpivot
+metasploit-execute-assembly - Metasploit post module to executing a .NET Assembly - https://github.com/b4rtik/metasploit-execute-assembly
+NetRipper - Smart traffic sniffing - https://github.com/NytroRST/NetRipper
+memscan - Searches for strings, regex, credit card numbers - https://github.com/nccgroup/memscan
+pypykatz - Mimikatz implementation in pure Python - https://github.com/skelsec/pypykatz
+Invoke-TheHash - PowerShell Pass The Hash Utils - https://github.com/Kevin-Robertson/Invoke-TheHash
 
 Looting:
 cookie_stealer - steal cookies from firefox cookies database -https://github.com/rash2kool/cookie_stealer
@@ -90,6 +102,9 @@ BrowserGather - Fileless web browser information extraction - https://github.com
 windows_sshagent_extract -  extract private keys from Windows 10 ssh-agent service - https://github.com/ropnop/windows_sshagent_extract
 MailSniper - searching through email in a Microsoft Exchange  - https://github.com/dafthack/MailSniper
 Invoke-CredentialPhisher -  powershell script to send toast notifications - https://github.com/fox-it/Invoke-CredentialPhisher
+Multipass -  Password manager credential recovery tool - https://github.com/abednarek/Multipass
+KeyTabExtract - Extracts Key Values from .keytab files - https://github.com/sosdave/KeyTabExtract
+sus_ssh - Phishing SSH Key Passphrases - https://github.com/patins/sus_ssh
 
 Network Hunting:
 Sticky-Keys-Slayer - Scans for accessibility tools backdoors via RDP - https://github.com/linuz/Sticky-Keys-Slayer
@@ -105,6 +120,12 @@ PCredz - This tool extracts creds from a pcap file or from a live interface - ht
 ridrelay - Enumerate usernames on a domain where you have no creds - https://github.com/skorov/ridrelay
 goddi -  dumps Active Directory domain information  - https://github.com/NetSPI/goddi
 SprayingToolkit - Scripts to make password spraying attacks - https://github.com/byt3bl33d3r/SprayingToolkit
+exchange_hunter2 - Hunting for Microsoft Exchange the LDAP Way - https://github.com/aslarchergore/exchange_hunter2
+adidnsdump - Active Directory Integrated DNS dumping - https://github.com/dirkjanm/adidnsdump
+PrivExchange - Exchange your privileges for Domain Admin - https://github.com/dirkjanm/PrivExchange
+ldapdomaindump - Active Directory information dumper via LDAP - https://github.com/dirkjanm/ldapdomaindump
+impacket_static_binaries - Standalone binaries - https://github.com/ropnop/impacket_static_binaries
+Exchange2domain - All in One tools of privexchange - https://github.com/Ridter/Exchange2domain
 
 Wireless:
 air-hammer - WPA Enterprise horizontal brute-force - https://github.com/Wh1t3Rh1n0/air-hammer
@@ -143,6 +164,8 @@ payloads - web attack payloads - https://github.com/foospidy/payloads
 Brosec -  An interactive reference tool for payloads - https://github.com/gabemarshall/Brosec
 Demiguise - HTA encryption tool - https://github.com/nccgroup/demiguise
 PayloadsAllTheThings -  A list of useful payloads - https://github.com/swisskyrepo/PayloadsAllTheThings
+statistically-likely-usernames - statistically likely username lists - https://github.com/insidetrust/statistically-likely-usernames
+ysoserial.net - Deserialization payload generator for .NET - https://github.com/pwntester/ysoserial.net
 
 Droppers:
 HERCULES - payload generator that can bypass antivirus - https://github.com/EgeBalci/HERCULES
@@ -155,6 +178,15 @@ Enigma - Multiplatform payload dropper  - https://github.com/UndeadSec/Enigma
 Gscript - framework to rapidly implement custom droppers - https://github.com/gen0cide/gscript
 mcreator - Encoded Reverse Shell Generator - https://github.com/blacknbunny/mcreator
 Phantom-Evasion - Python AV evasion tool - https://github.com/oddcod3/Phantom-Evasion
+mcreator - Encoded Reverse Shell Generator - https://github.com/blacknbunny/mcreator
+hershell - Multiplatform reverse shell generator - https://github.com/lesnuages/hershell
+wep - Weaponize Macro payloads - https://github.com/ghost123gg/wep
+EvilClippy - creating malicious MS Office documents - https://github.com/outflanknl/EvilClippy
+macro_pack - MS Office documents or VBS - https://github.com/sevagas/macro_pack
+AVIator - backdoor generator utility - https://github.com/Ch0pin/AVIator
+MaliciousMacroGenerator - Malicious Macro Generator - https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
+donut - hellcode that loads .NET Assemblies, PE files - https://github.com/TheWover/donut
+
 
 Apple:
 MMeTokenDecrypt - Decrypts and extracts iCloud and MMe authorization tokens - https://github.com/manwhoami/MMeTokenDecrypt
@@ -201,12 +233,18 @@ SharpHound - The BloodHound C# Ingestor - https://github.com/BloodHoundAD/SharpH
 SharpGen - C# compiler to cross-compile .NET console applications or libraries. - https://github.com/cobbr/SharpGen
 InveighZero - C# LLMNR/NBNS spoofer - https://github.com/Kevin-Robertson/InveighZero
 SharpSploitConsole - Console Application designed to interact with SharpSploit - https://github.com/anthemtotheego/SharpSploitConsole
+SharpSniper - Find specific users in active directory via username and IP address - https://github.com/HunnicCyber/SharpSniper
+SharPersist - Windows persistence toolkit - https://github.com/fireeye/SharPersist
+RedTeamCSharpScripts - C# Script used for Red Team - https://github.com/Mr-Un1k0d3r/RedTeamCSharpScripts
+SharPyShell - iny and obfuscated ASP.NET webshell for C# - https://github.com/antonioCoco/SharPyShell
 
 Not Powershell: 
 PowerShdll - Run PowerShell with rundll32 - https://github.com/p3nt4/PowerShdll
 PowerLine- Powershell Scripts in a binary - https://github.com/fullmetalcache/PowerLine
 PowerOPS - C# that runs PowerShell commands and functions - https://github.com/fdiskyou/PowerOPS
 nps - Not PowerShell - https://github.com/Ben0xA/nps
+PowerHub - post exploitation tool - https://github.com/AdrianVollmer/PowerHub
+
 
 RATs:
 SILENTTRINITY - post-exploitation agent powered by Python, IronPython, C# and .NET's DLR - https://github.com/byt3bl33d3r/SILENTTRINITY
@@ -216,3 +254,12 @@ Mertin - cross-platform post-exploitation HTTP/2 Command & Control  - https://gi
 dnscat2-powershell - encrypted DNS command and control tool - https://github.com/lukebaggett/dnscat2-powershell
 Koadic - JScript RAT - https://github.com/zerosum0x0/koadic
 Pupy - cross-platform RAT written in python - https://github.com/n1nj4sec/pupy
+sliver - Implant framework - https://github.com/BishopFox/sliver
+Covenant - Covenant is a collaborative .NET C2 - https://github.com/cobbr/Covenant
+
+Cloud:
+pacu - The AWS exploitation framework - https://github.com/RhinoSecurityLabs/pacu
+weirdAAL - AWS Attack Library - https://github.com/carnal0wnage/weirdAAL
+ScoutSuite - Multi-Cloud Security Auditing Tool - https://github.com/nccgroup/ScoutSuite
+AWS-IAM-Privilege-Escalation - AWS IAM privilege escalation methods - https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation
+nimbostratus - ingerprinting and exploiting Amazon cloud infrastructures - https://github.com/andresriancho/nimbostratus
